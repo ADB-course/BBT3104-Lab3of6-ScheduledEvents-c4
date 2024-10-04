@@ -21,3 +21,5 @@ WHERE `ticket_created` >= NOW() - INTERVAL 1 HOUR;
 
 --Ensuring the global event scheduler is running
 SET GLOBAL event_scheduler = ON;
+
+--Showing Bakhita how to commit a code
